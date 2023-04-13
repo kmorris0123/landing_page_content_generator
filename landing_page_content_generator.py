@@ -3,7 +3,7 @@ import csv
 import os
 
 # Where you add the Openai key
-openai.api_key = ""
+openai.api_key = "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"
 
 # this creates the page titles
 def create_page_title(keyword, city, state):
@@ -110,9 +110,11 @@ def main():
             create_page_title(keyword, city, state): {
                 "keyword": keyword,
                 "city": city,
-                "state": state
+                "state": state,
+                "csv_notes": ""  # Add an empty 'csv_notes' key
             }
         }
+
     if data_source == '2':
         # Read CSV and create dictionary
         csv_filename = input("Enter CSV filename: ")
