@@ -63,11 +63,5 @@ Contributing
 Contributions to improve and expand the script are welcome. To contribute, please submit a pull request with your proposed changes.
 
 
-Versions: 
-5 - working, has 3 options: manual section titles, default (you can change this in the code), and Chat GPT Generated.
-6 - improved content quality
-7 - added single page useage and switched to gpt-3.5-turbo
-8 - fixed a few logic errors
-
 License
 This project is released under the MIT License.
