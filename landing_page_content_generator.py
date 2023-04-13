@@ -3,7 +3,7 @@ import csv
 import os
 
 # Where you add the Openai key
-openai.api_key = "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"
+openai.api_key = ""
 
 # this creates the page titles
 def create_page_title(keyword, city, state):
